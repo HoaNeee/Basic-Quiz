@@ -1,0 +1,49 @@
+.result {
+  &__item {
+  }
+  &__answers {
+    margin-bottom: 5px;
+  }
+  &__score {
+    margin-bottom: 10px;
+  }
+  &__name {
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+  &__header {
+    display: flex;
+    align-items: center;
+  }
+  &__status {
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    width: 40px;
+    text-align: center;
+    &--correct {
+      background: green;
+    }
+    &--incorrect {
+      background: red;
+    }
+  }
+  &__form {
+    border: 2px solid #ddd;
+    padding: 10px;
+  }
+  & button {
+    padding: 9px 13px;
+    margin-top: 10px;
+    border: none;
+    background: orange;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    &:hover {
+      background: coral;
+    }
+  }
+}

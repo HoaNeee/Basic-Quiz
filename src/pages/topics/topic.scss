@@ -1,0 +1,25 @@
+.topic {
+  &__table {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+    tr,
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      a {
+        text-decoration: none;
+        color: #000;
+        border: 2px solid #ddd;
+        border-radius: 5px;
+        padding: 5px;
+        &:hover {
+          background: orange;
+          color: white;
+          border: 2px solid orange;
+        }
+      }
+    }
+  }
+}

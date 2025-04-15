@@ -1,0 +1,40 @@
+.register {
+  width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  &__form {
+    display: flex;
+    flex-direction: column;
+    input {
+      margin-bottom: 20px;
+      padding: 10px 5px;
+      border-radius: 5px;
+      border: 2px solid #cdcccc;
+      overflow: hidden;
+      &:focus {
+        outline: none;
+        background: rgb(243, 243, 253);
+      }
+    }
+  }
+  &__btn {
+    width: 90px;
+    border: none;
+    cursor: pointer;
+    background: orange;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    &:hover {
+      background: rgb(185, 121, 1);
+    }
+  }
+}
+
+.notifi-success {
+  text-align: center;
+}

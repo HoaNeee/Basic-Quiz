@@ -1,0 +1,24 @@
+.quiz {
+  &__item {
+  }
+  &__answers {
+    margin-bottom: 5px;
+  }
+  &__name {
+    font-size: 17px;
+    font-weight: 500;
+  }
+  & button {
+    padding: 9px 13px;
+    margin-top: 10px;
+    border: none;
+    background: orange;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    &:hover {
+      background: coral;
+    }
+  }
+}
